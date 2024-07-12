@@ -1,0 +1,116 @@
+EventId,EventTemplate,Occurrences
+3aa50e45,instruction cache parity error corrected,42
+6265c739,<*> double-hummer alignment exceptions,109
+d8bfe5dc,"CE sym NUM, at Word, mask Word",92
+07ab51b6,ciod: failed to read message prefix on control stream (CioStream socket to IP,3
+c64486d4,generating CORE,721
+d6cc7b7d,force load/store alignment............... NUM,2
+c141d864,ciod: cpu NUM at treeaddr NUM sent unrecognized message Word,1
+4983ff07,ciod: LOGIN <*> failed: No such file or directory,13
+1af7da91,"<*> ddr errors(s) detected and corrected on rank NUM, symbol NUM, bit NUM",18
+38a7307d,data TLB error interrupt,60
+aefd5f1f,ciod: Message code NUM is not NUM or NUM,1
+d2c9db9b,data storage interrupt,30
+be6c6a3d,instruction address: Word,21
+da8f6276,data address: Word,8
+c5c8494a,machine <*> <*> NUM,7
+a1b6ad06,program interrupt: <*> <*> NUM,21
+a7f60e00,exception syndrome register: Word,6
+800ce546,data store interrupt caused by <*> NUM,10
+421a7a4b,store operation............................. NUM,2
+66e42ad4,machine state register: Word,4
+b9ba3adf,"problem state ( NUM=sup, NUM=usr)....... NUM",3
+ed7bdd09,floating point instr. enabled..... NUM,4
+5fc9881f,auxiliary processor......................... NUM,5
+6c8a752d,floating pt ex mode NUM enable...... NUM,5
+a77bdfcf,debug <*> <*> NUM,3
+8010ef54,byte ordering exception..................... NUM,2
+7ce946f5,data address space................ NUM,5
+edca3d26,core configuration register: Word,7
+71a531f1,program interrupt: fp cr update............. NUM,1
+92a928f3,guaranteed <*> cache block <*> NUM,3
+914e55fb,program interrupt: fp cr field ............. NUM,4
+51fa3269,icache prefetch <*> NUM,3
+6e8f9b70,wait state enable................. NUM,1
+08b62de3,critical input interrupt enable... NUM,1
+f7c382bd,special purpose registers:,1
+b1fe4891,lr:00004ed0 cr: NUM xer: NUM ctr: NUM,1
+af999985,rts internal error,1
+b5307f80,instruction address space......... NUM,1
+78b07195,disable store gathering.................. NUM,3
+bf112b2f,total of NUM ddr error(s) detected and corrected,13
+57138c88,"ciod: Error loading <*> invalid or missing program image, No such file or directory",12
+4496b375,ciod: Error creating node map from file <*> <*> <*> <*>,4
+0d07695b,"ciod: Error loading /home/glosli/src/ddcMD/ddcMD/ NUM. NUM. NUM/ddcMDbglV: invalid or missing program image, No such file or directory",1
+0d02c0e2,program interrupt,3
+a2335b6b,Node card is not fully functional,6
+393d462b,Ido chip status changed: FF:FWordF: <*> <*> ip=IP v= NUM t= NUM status=M <*> <*> NUM Word: NUM PDT NUM,3
+9d5d6232,Can not get assembly information for node card,6
+60131461,ciod: Missing or invalid fields on line NUM of node map file <*>,2
+77bdc5cf,<*> torus receiver <*> input pipe error(s) (dcr Word) detected and corrected,4
+69bfdb65,ciod: <*> <*> NUM <*> <*> <*> <*> at line NUM of node map file <*>,2
+220716fc,rts panic! - stopping execution,2
+16b32b4f,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type= NUM, cpu= NUM, index= NUM, total= NUM",1
+1ae4a1e2,<*> floating point alignment exceptions,121
+1d16acea,New ido chip inserted into the database: FF:FWordF:WordF:Word:0D: NUM:EA:EWordD ip=IP v= NUM t= NUM,1
+3b5bf3bb,New ido chip inserted into the database: FF:FWordF: NUM:BF:6C:WordD: NUM:EWord: NUM ip=IP v= NUM t= NUM,1
+12c46e92,NodeCard is not fully functional,1
+1ae80747,"Node card status: ALERT NUM, ALERT NUM, ALERT NUM, ALERT NUM is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The NUM. NUM volt rail is OK. The NUM. NUM volt rail is OK.",1
+19083ffd,Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,5
+8511e7e6,New ido chip inserted into the database: FF:FWordF: NUM:C4:CWord:0D: NUM:EWordB:3D ip=IP v= NUM t= NUM,1
+75b4090b,"idoproxydb hit ASSERT condition: ASSERT expression= NUM Source file=idotransportmgr.cpp Source line= NUM Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",35
+b8479872,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The NUM. NUM volt rail is OK. The NUM. NUM volt rail is OK.,5
+9c354975,Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*> NUM,4
+57dacd79,Ido chip status changed: <*> <*> ip=IP v= NUM t= NUM status=M <*> <*> NUM Word: NUM PDT NUM,2
+5c513f79,"PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:FWordF: NUM:CF:0F:WordD: NUM:EWord:F0), mIp(IP), mType( NUM)) as part of Service Action NUM",1
+c42200c4,rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-,1
+d38813a2,<*> tree receiver NUM in re-synch state event(s) (dcr Word) detected,3
+64919a36,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_ NUM_ NUM/allreduce.rts: invalid or missing program image, Exec format error",15
+8965d91c,"ciod: Error loading <*> <*> invalid or missing program image, No such file or directory",4
+690616d2,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to IP Link has been severed,9
+a5c9ecb0,rts: kernel terminated for reason NUM,6
+db6c87ce,ciod: generated NUM core files for program <*>,23
+d533ae32,iar <*> dear <*> NUM,51
+1b700d02,iar <*> dear <*>,157
+bc21afbc,"NFS Mount failed on <*> slept NUM seconds, retrying ( NUM)",2
+b2e6efea,Lustre mount FAILED : <*> : <*> <*> <*>,11
+2355b700,ciod: pollControlDescriptors: Detected the debugger died.,3
+8147dd0a,"ciod: In packet from node NUM. NUM (R62-M1-Nf-C:J03-U11), message code NUM is not NUM or NUM (softheader=003b005b NUM NUM NUM)",1
+ea3efa0b,suppressing further interrupts of same type,2
+acef6f23,rts: bad message header: expecting type NUM instead of type NUM (softheader=00131db8 81aa0003 NUM NUM) PSR0=00001f01 PSR1= NUM PRXF= NUM PIXF= NUM,1
+f0969402,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN/// NUM. NUM. NUM- NUM. NUM. NUM) failed: No such file or directory,5
+645883cd,critical input interrupt (unit=Word bit=Word): warning for torus <*> wire,2
+7c363edf,"ciod: Error loading <*> invalid or missing program image, Permission denied",11
+f1875c60,"ciod: Error loading <*> <*> invalid or missing program image, Permission denied",7
+3df336b2,"ciod: Error loading <*> <*> <*> invalid or missing program image, No such file or directory",4
+f3eed4bf,data cache search parity error detected. attempting to correct,6
+a828f891,shutdown complete,1
+c91606ba,"ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error",2
+8d6fb8a1,ciod: generated NUM core files for program <*> <*>,7
+585b551e,"Error receiving packet on tree network, expecting type NUM instead of type NUM <*> <*> NUM NUM) <*> PSR1= NUM PRXF= NUM PIXF= NUM",4
+deb4339d,"Error receiving packet on tree network, expecting type NUM instead of type NUM (softheader= NUM NUM NUM NUM) PSR0=00001f01 PSR1= NUM PRXF= NUM PIXF= NUM",1
+04db0051,3 L3 EDRAM error(s) (dcr Word) detected and corrected,1
+46eb6bbb,"critical input interrupt (unit=Word bit=Word): warning for <*> <*> wire, suppressing further interrupts of same type",3
+8beec966,"ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM. NUM- NUM: invalid or missing program image, Permission denied",1
+ede572f2,<*> torus sender z- retransmission error(s) (dcr Word) detected and corrected over NUM seconds,2
+081aa376,"ciod: Received signal NUM, code= NUM, errno= NUM, address=Word",16
+b99bf48f,MACHINE CHECK DCR read timeout (mc=e08x iar Word lr Word),7
+c0f65b14,"ciod: Error reading message prefix on CioStream socket to IP, Connection timed out",2
+1518d8d9,"ciod: Error reading message prefix on CioStream socket to IP, <*> <*> <*> <*>",12
+7e382c8d,dbcWord dbsr=Word ccWord,1
+3b35962b,Word Word Word Word,1
+72d7bbac,<*> tree receiver NUM in re-synch state event(s) (dcr Word) detected over NUM seconds,2
+5c64c058,0 microseconds spent in the rbs signal handler during NUM calls. NUM microseconds was the maximum time for a single instance of a correctable ddr.,51
+da883db1,"<*> total interrupts. NUM critical input interrupts. NUM microseconds total spent on critical input interrupts, NUM microseconds max time in a critical input interrupt.",71
+8f9e9e6f,"<*> ddr error(s) detected and corrected on rank NUM, symbol NUM over NUM seconds",7
+131a717f,"PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:FWordF: NUM:E0:DA:WordD: NUM:EWordF: NUM), mIp(IP), mType( NUM)) as part of Service Action NUM",1
+3e742218,"Kernel detected NUM integer alignment exceptions ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word ( NUM) iar Word, dear Word",9
+b62a7ce9,total of NUM ddr error(s) detected and corrected over NUM seconds,4
+9b955301,minus normalized number.................. NUM,1
+10dfaa77,fraction rounded......................... NUM,1
+4ac190e3,size of scratchpad portion of L3......... NUM (0M),1
+a9d2e74a,ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/ NUM) failed: Input/output error,1
+02d743e7,2 L3 EDRAM error(s) (dcr Word) detected and corrected over NUM seconds,1
+4daa9f7b,"ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver. NUM.exe: program image too big, NUM > NUM",1
+05112609,FPR,1
+4f4df505,Machine State Register: Word,1

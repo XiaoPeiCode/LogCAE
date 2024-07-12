@@ -1,0 +1,41 @@
+#type: args
+
+global:
+  random_seed: 0
+  need_preprocess: False # 1.是否要进行数据处理
+
+dataset:
+  dataset_name: "Zookeeper"
+  dir: "dataset"
+  emb_dim: 768 # word2vec vector size
+  window_size: 15 # size of sliding window
+  step_size: 1 # step size of sliding window
+  total_num: all # Maximum number of source datasets 100000
+  start_index: 0 # 在全部Log里抽取的开始位置
+  need_Bart: True # 2.是否要重新进行bart编码，若否，直接根据total_num_start_index
+  train_ratio: 0.9
+  test_ratio: 0.5 # 测试集用全部的异常Log,
+
+train:
+   epoch: 10
+   batch_size: 1024
+
+contrastive:
+   margin: 1
+   epoch: 50
+   ratio: 0.1
+   alpha: 5
+
+anomaly_detection: # 异常检测相关参数
+  ratio: 0.3
+  n_std: 2
+
+Emb2Rep:
+  isUsed: True
+  rnn_hidden_dim: 512 # lstm输出
+  num_heads: 8 #
+  rep_dim: 128 # 最后输出的维度
+
+AE:
+  hidden_dims: [64,128,32]
+  lr : 0.005

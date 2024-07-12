@@ -1,0 +1,45 @@
+#type: args
+
+global:
+  random_seed: 0
+  need_preprocess: True # 1.是否要进行数据处理
+
+dataset:
+  dataset_name: "BGL"
+  dir: "dataset"
+  emb_dim: 768 # word2vec vector size
+  window_size: 30 # size of sliding window
+  step_size: 1 # step size of sliding window
+  total_num: 20000 # Maximum number of source datasets 100000
+  start_index: 0 # 在全部Log里抽取的开始位置
+  need_Bart: False # 2.是否要进行bart编码，若否，直接根据total_num_start_index
+  train_ratio: 0.9
+  test_ratio: 0.5
+
+#  INFO:root:total  len(label=0):86424, len(label=1): 13546
+#test dataset len(normal)=8642,len(abnormal)=6773"
+
+train:
+   epoch: 30
+   batch_size: 512
+
+contrastive:
+   margin: 1
+   epoch: 100
+   ratio: 0.3
+   alpha: 0
+
+anomaly_detection: # 异常检测相关参数
+  ratio: 0.1
+  n_std: 2
+
+Emb2Rep:
+  isUsed: True
+  rnn_hidden_dim: 512 # lstm输出
+  num_heads: 8 #
+  rep_dim: 128 # 最后输出的维度
+
+AE:
+  hidden_dims: [64,128,14]
+  model_path: "./save/model/bgl_detection.pkl"
+  lr : 0.001
